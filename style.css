@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
@@ -12,13 +12,13 @@ img {
     box-shadow: 3px 3px 33px 11px rgba(196,195,228,1);
 }
 
-.title{
+.title {
     font-size: 265%;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-.bottom{
+.bottom {
     padding-top: 4%;
     background-color: #f9f9f9;
     padding-bottom: 2%
