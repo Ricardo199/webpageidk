@@ -35,14 +35,14 @@ img {
     margin-bottom: auto;
 }
 
-.overlay {
+.gallery {
     display: flex;
     padding-left: 18.4%;
     margin-top: -12.9%;
     padding-right: 7%;
 }
 
-.overlay1 {
+.overlay {
     margin-left: -27%;
     width: 38vh;
     padding: 1%;
@@ -52,7 +52,7 @@ img {
     flex-direction: row;
 }
 
-.backoverlay1 {
+.backoverlay {
     margin-right: 2%;
     width: 41.4vh;
     height: 26.5vh;
@@ -64,112 +64,24 @@ img {
     flex-direction: row;
 }
 
-.overlay1 .visible {
+.overlay .visible {
     margin-left: 2%;
     margin-top: auto;
 }
 
-.overlay1 .hidden {
+.overlay .hidden {
     text-align: center;
-    margin-top:24.5%;
-    padding-left: 0.5%;
+    margin-bottom: 25%;
+    margin-right: 15%;
     background-color: rgba(255,255,255,0.5);
     border-radius: 13.5%;
     display: none;
 }
 
-.overlay1:hover .hidden {
+.overlay:hover .hidden {
     display: inline;
 }
 
-.overlay1:hover .visible {
-    display: none;
-}
-
-.overlay2 {
-    margin-left: -27%;
-    width: 38vh;
-    padding: 1%;
-    border-radius: 10%;
-    z-index: 2;
-    display: flex;
-    flex-direction: row;
-}
-
-.backoverlay2{
-    margin-right: 2%;
-    width: 41.4vh;
-    height: 26.5vh;
-    border-radius: 13.5%;  
-    background-image: linear-gradient(rgba(113,13,121,0.7),rgba(107,99,223,0.9));    
-    clip-path: polygon(90% 0, 100% 0, 100% 100%, -60% 100%);
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-}
-
-.overlay2 .visible {
-    margin-left: 2%;
-    margin-top: auto;
-}
-
-.overlay2 .hidden {
-    text-align: center;
-    margin-top:24.5%;
-    padding-left: 0.5%;
-    background-color: rgba(255,255,255,0.5);
-    border-radius: 13.5%;
-    display: none;
-}
-
-.overlay2:hover .hidden {
-    display: inline;
-}
-
-.overlay2:hover .visible {
-    display: none;
-}
-
-.overlay3 {
-    margin-left: -27%;
-    width: 38vh;
-    padding: 1%;
-    border-radius: 10%;
-    z-index: 2;
-    display: flex;
-    flex-direction: row;
-}
-
-.backoverlay3{
-    margin-right: 2%;
-    width: 41.4vh;
-    height: 26.5vh;
-    border-radius: 13.5%;  
-    background-image: linear-gradient(rgba(113,13,121,0.7),rgba(107,99,223,0.9));    
-    clip-path: polygon(90% 0, 100% 0, 100% 100%, -60% 100%);
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-}
-
-.overlay3 .visible {
-    margin-left: 2%;
-    margin-top: auto;
-}
-
-.overlay3 .hidden {
-    text-align: center;
-    margin-top:24.5%;
-    padding-left: 0.5%;
-    background-color: rgba(255,255,255,0.5);
-    border-radius: 13.5%;
-    display: none;
-}
-
-.overlay3:hover .hidden {
-    display: inline;
-}
-
-.overlay3:hover .visible {
+.overlay:hover .visible {
     display: none;
 }
